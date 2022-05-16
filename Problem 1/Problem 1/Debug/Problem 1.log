@@ -1,0 +1,13 @@
+﻿  Assembling Main.asm...
+Main.asm(6): error A2013: .MODEL must precede this directive
+Main.asm(8): error A2034: must be in segment block
+Main.asm(11): error A2034: must be in segment block
+Main.asm(14): error A2013: .MODEL must precede this directive
+Main.asm(15): error A2034: must be in segment block : main
+Main.asm(16): error A2034: must be in segment block
+Main.asm(17): error A2034: must be in segment block
+Main.asm(18): error A2034: must be in segment block
+Main.asm(19): error A2034: must be in segment block
+Main.asm(21): error A2008: syntax error : exit
+Main.asm(22): fatal error A1010: unmatched block nesting : main
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\Main.obj" /W3 /errorReport:prompt  /TaMain.asm" exited with code 1.
